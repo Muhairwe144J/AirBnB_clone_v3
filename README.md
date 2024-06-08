@@ -150,13 +150,43 @@ EOF  all  create  destroy  help  quit  show  update
 (hbnb) quit
 ```
 
+#Project Structure
+essential files and directories you’ll need;
+AirBnB_clone/
+│
+├── console.py
+├── models/
+│   ├── __init__.py
+│   ├── base_model.py
+│   ├── user.py
+│   ├── place.py
+│   ├── state.py
+│   ├── city.py
+│   ├── amenity.py
+│   ├── review.py
+│   └── engine/
+│       ├── __init__.py
+│       ├── file_storage.py
+└── tests/
+    ├── __init__.py
+    ├── test_console.py
+    ├── test_base_model.py
+    ├── test_user.py
+    ├── test_place.py
+    ├── test_state.py
+    ├── test_city.py
+    ├── test_amenity.py
+    └── test_review.py
+
 ## Bugs
 No known bugs at this time. 
 
 ## Authors
 Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twitter.com/alexa_orrico)  
 Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)
+Nasasira Shafik Muhairwe - [Github](https://github.com/Muhairwe144J)
 
 Second part of Airbnb: Joann Vuong
+project structure: Nasasira Shafik Muhairwe
 ## License
 Public Domain. No copy write protection. 
